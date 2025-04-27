@@ -1,3 +1,5 @@
+import {Car} from "../models/cars.model.js";
+
 export const getCars = async (req, res) => {
   try {
     const cars = await Car.find();
